@@ -299,7 +299,7 @@ gen-code:
 	GOBIN=$(GOBIN) go install github.com/golang/mock/mockgen
 	GOBIN=$(GOBIN) go install golang.org/x/tools/cmd/stringer
     # Make sure that we are using the tool binaries which are just built to generate code.
-	PATH=$(GOBIN):$(PATH) go generate ./...
+	PATH=$(GOBIN);$(PATH) go generate ./...
 
 .PHONY: lint
 # To run golangci-lint locally: https://golangci-lint.run/usage/install/#local-installation
