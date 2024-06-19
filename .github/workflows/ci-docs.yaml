@@ -65,6 +65,7 @@ jobs:
     steps:
       - run: echo "Skipping CI for docs & contrib files"
   e2e-tests:
+    if: skip()
     strategy:
       matrix:
         os:
@@ -79,6 +80,7 @@ jobs:
     steps:
       - run: echo "Skipping CI for docs & contrib files"
   windows-e2e-tests:
+    if: false
     strategy:
       matrix:
         os: [[self-hosted, windows, amd64, test]]
