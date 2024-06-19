@@ -5,6 +5,8 @@
   <img alt="Finch logo" width=40% height=auto src="https://raw.githubusercontent.com/runfinch/finch/main/contrib/logo/Finch_Horizontal_Black.svg">
 </picture>
 
+This is a test
+
 ## Hello, Finch
 <!-- markdownlint-restore -->
 
